@@ -1,0 +1,12 @@
+p,
+h1 {/* Signifie "je veux que tous les paraghraphes et et les titres h1 s'affiche,t en raoyal blue. */
+    color:royalblue;
+}
+
+.ma_classe{
+    color:darkmagenta; 
+}
+
+.ma_classe_2{
+    color :darkgreen;
+}
