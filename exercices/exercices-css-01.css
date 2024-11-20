@@ -1,3 +1,9 @@
+body{
+   
+    
+}
+
+
 p { /* Signifie "je veux que tous les paraghraphes s'affiche en police arial sans-serif . */
     font-family: Arial, sans-serif;
     font-size: 24px;
@@ -27,11 +33,13 @@ p { /* Signifie "je veux que tous les paraghraphes s'affiche en police arial san
  h2{
     text-align: center;
     font-size:40px;
-    color:rgb(119, 119, 218);
+    color:darkblue;
+    background-color: linear-gradient(to right #39a1bb, #eaecc6 );
+   
  }
 
 h1{
-    color:royalblue;
+    color:#821473;
     font-family: 'Lobster', cursive;
     font-size: 3em;
     /* Il y a plusieurs moyens d'indiquer une valeur relative. Une des plus fréquentes
@@ -42,6 +50,14 @@ h1{
     Attention tout de même à la syntaxe : pour les nombres décimaux, il faut mettre 
     un point et non une virgule. Vous devez donc écrire 1.4em et non pas  1,4em  ! */
     text-align: center;
+    color:azure white;
+    padding: 150px;
+    background-image: url("images_exercices/colombes-papier-origami-by_macrovector-freepik.jpg");
+    background-attachment: fixed; 
+    /*background-size : cover; l'image sera positionnée par défaut en haut et en ajoutant 
+    "background-position: center; permet de l'image en arrière plan */
+    opacity: 0.5;
+    
 }
     
 .ma_classe{
@@ -56,3 +72,9 @@ h1{
     font-weight: 700;
     text-decoration: double;
 }
+
+em{
+    font-weight: 700;
+    color: #818ee6;
+}
+
