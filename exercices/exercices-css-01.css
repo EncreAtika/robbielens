@@ -79,3 +79,7 @@ em{
     color: #818ee6;
 }
 
+mark {
+    background-color: rgb(233, 215, 231);
+    color:rgb(127, 56, 235);
+}
