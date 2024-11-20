@@ -1,12 +1,58 @@
-p,
-h1 {/* Signifie "je veux que tous les paraghraphes et et les titres h1 s'affiche,t en raoyal blue. */
-    color:royalblue;
-}
+p { /* Signifie "je veux que tous les paraghraphes s'affiche en police arial sans-serif . */
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    /* ci dessus 24px correspond à la valeur 24 pixels. c’est très précis, mais il est 
+    conseillé de n'utiliser cette méthode que si on sait sur quelle taille d'écran ou 
+    dimension d'impression une personne verra le contenu de la page, car on risque 
+    d'indiquer une taille trop petite pour certains lecteurs. */
 
+    /*Indiquer une taille relative a l'avantage d'être plus souple, elle s'adapte, 
+    selon les tailles d'écrans, plus facilement aux préférences des visiteurs.*/
+
+    /*Une valeur absolue en pixel comme 16px est fixe. C'est comme s'il était demandé
+    d'indiquer la taille du texte en millimètres. S'il est choisi de mettre la taille
+    d'un texte à 2 millimètres et qu'on regarde la page web depuis un smartphone
+    il est possible de pouvoir le lire. Maintenant, si le site web s'affiche sur l'écran 
+    d'un stadium, que se passera-t-il ? Ce sera illisible. C'est pour cela qu'il est 
+    recommandé d'utiliser une taille relative (em plutôt que px). 16 pixels est une 
+    taille standard pour lire un texte mais peut ne pas suffire selon l'écran sur 
+    lequel il s'affiche. Une valeur relative permet de choisir une taille de police 
+    de la même manière qu'on utiliserait un pourcentage.*/
+    
+    font-style: italic;
+    text-align:justify;
+    color:rgb(21, 6, 78); 
+ }
+
+ h2{
+    text-align: center;
+    font-size:40px;
+    color:rgb(119, 119, 218);
+ }
+
+h1{
+    color:royalblue;
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    /* Il y a plusieurs moyens d'indiquer une valeur relative. Une des plus fréquentes
+     consiste à indiquer la taille en em.
+        -Le texte a une taille normale avec  1em .
+        -Le texte est plus grand avec une valeur supérieure à 1, comme  1.3em .
+        -Le texte est plus petit avec une valeur inférieure à 1, comme  0.8em.
+    Attention tout de même à la syntaxe : pour les nombres décimaux, il faut mettre 
+    un point et non une virgule. Vous devez donc écrire 1.4em et non pas  1,4em  ! */
+    text-align: center;
+}
+    
 .ma_classe{
-    color:darkmagenta; 
+    color:rgb(21, 6, 78); 
 }
 
 .ma_classe_2{
-    color :darkgreen;
+    color :rgb(115, 3, 94);
+}
+
+.introduction{
+    font-weight: 700;
+    text-decoration: double;
 }
