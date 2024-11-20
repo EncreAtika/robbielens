@@ -1,5 +1,6 @@
 body{
-   
+    background-color: rgb(230, 241, 241); /* Le fond de la page sera noir */
+    color: rgb(36, 5, 128); /* Le texte de la page sera blanc */
     
 }
 
