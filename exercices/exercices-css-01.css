@@ -38,7 +38,7 @@ p { /* Signifie "je veux que tous les paraghraphes s'affiche en police arial san
     font-size:40px;
     color:darkblue;
     background-color: linear-gradient(to right #39a1bb, #eaecc6 );
-   
+    text-shadow: 6px 6px 15px rgb(115, 3, 94);
  }
 
 
@@ -68,13 +68,33 @@ h1{
     color:rgb(21, 6, 78); 
 }
 
+
 .ma_classe_2{
     color :rgb(115, 3, 94);
 }
 
 .introduction{
-    font-weight: 700;
+    font-weight: 700; 
     text-decoration: double;
+}
+
+ol{
+    text-align: center;
+    border: 2px solide rgb(242, 241, 164);
+    border-radius: 10px 20px 40 px 60 px;
+    box-shadow: 6px 6px 15px rgb(115, 3, 94);
+
+    /* Pour arrondir la bordure des blocs : "border-radius" qui 
+    est une propriété dite raccourcie. C'est à dire qu'elle permet
+    de définir la valeur de plusieurs propriétés via une seule 
+    déclaration.*/
+
+    /* Pour créer un style différent pour chaque bordure d'un cadre,
+    border-bottom: 2px solid rgb(240, 242, 173);
+    border-right: 6px dotted deeppink ;
+    border-left: 3px dotted rebeccapurple;
+    border-top: 4px solid orange; */
+    
 }
 
 em{
