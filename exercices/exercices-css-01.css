@@ -1,6 +1,8 @@
 body{
-    background-color: rgb(230, 241, 241); /* Le fond de la page sera noir */
-    color: rgb(36, 5, 128); /* Le texte de la page sera blanc */
+    background: linear-gradient(#e7f0f6, #abb1eb); /* Le fond de la page sera 
+    dégradé(https://developer.mozilla.org/fr/docs/Web/CSS/gradient/linear-gradient)
+    (ou bien :https://uigradients.com/#PurpleWhite) 
+    /*color: rgb(36, 5, 128); /* Le texte de la page sera blanc */
     
 }
 
@@ -38,6 +40,7 @@ p { /* Signifie "je veux que tous les paraghraphes s'affiche en police arial san
     background-color: linear-gradient(to right #39a1bb, #eaecc6 );
    
  }
+
 
 h1{
     color:#821473;
