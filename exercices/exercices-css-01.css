@@ -113,3 +113,25 @@ mark {
    border-radius: 52% 48% 50% 50% / 57% 55% 45% 43% ;
    width: 580; height: 170;
 }
+
+img:hover{
+    opacity: 0.5;
+}
+
+a:hover{
+    color:deeppink;
+    text-decoration: underline;
+}
+/* a:active{
+    text-decoration-color: #821473;
+}
+
+a:focus{
+    background-color: rgb(106, 148, 134); 
+    color: antiquewhite;  
+    outline-color: rgb(245, 205, 243);
+}
+
+img:hover + h2{
+    color:indianred;
+} */
