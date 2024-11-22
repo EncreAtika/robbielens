@@ -106,3 +106,10 @@ mark {
     background-color: rgb(233, 215, 231);
     color:rgb(127, 56, 235);
 }
+
+.carre_bordure{
+   text-align: center;
+   border: double 4px  darkslateblue;
+   border-radius: 52% 48% 50% 50% / 57% 55% 45% 43% ;
+   width: 580; height: 170;
+}
