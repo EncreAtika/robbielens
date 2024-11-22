@@ -39,8 +39,18 @@ h2{
   background-color: white;
 }
 
-.cta{
+.mini_case{
   background: linear-gradient(#8E86B5, #ACAEED);
   color: white;
+  border-radius: 50xp;
 }
+
+.bloc {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+}
+.commentaire{ 
+  color:#1F2039
+}
+
 
