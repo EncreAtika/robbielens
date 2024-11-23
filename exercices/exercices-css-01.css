@@ -121,17 +121,29 @@ img:hover{
 a:hover{
     color:deeppink;
     text-decoration: underline;
+    /* permet de colorer les lettre du lien en rose lorsque la souris passe dessus. Le lien est aussi souligné */
+    
 }
-/* a:active{
-    text-decoration-color: #821473;
+  
+
+a:active{
+    text-decoration-color: greenyellow;
+    /* lorsque la souris clique sur le lien un effet "greenyello" apparait le temps du clqiue donc très rapide. */
 }
 
 a:focus{
-    background-color: rgb(106, 148, 134); 
-    color: antiquewhite;  
-    outline-color: rgb(245, 205, 243);
+    background-color: rgb(27, 207, 147); 
+    color: rgb(207, 22, 22);  
+    outline-color: rgb(74, 13, 99);
+    /*lorsque le lien est sélectionné avec tab il y a un effet encadré qui se met en place avec les couleurs choisies
+    cela permet de faire ressortir ce qui est séléctionné et donc de se repérer facilement. Très pratqiue pour
+    un formulaire par exemple.*/
 }
 
-img:hover + h2{
-    color:indianred;
-} */
+img:hover +h3 {
+
+    color : aqua;
+}
+/*  la fonstionnalié sibllings ou selecteur de voisin permet de faire interagir simultanément deux selecteurs voisins ou deux 
+élèments issus du même parent. Dans le code est précisé l'élèment principal (img) auquel est ajouté l'élèment cible (+ h3)
+est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça ne fonctionne pas très bien*/
