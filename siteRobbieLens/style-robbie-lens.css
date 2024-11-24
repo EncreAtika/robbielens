@@ -6,7 +6,7 @@ body {
     background-color: #1F2039;
   }
 
-  a{
+a{
     color:#242424;
     text-decoration: none;
 }
@@ -34,8 +34,8 @@ h2{
   color:#F9F8FF;
 }
 
-.tete_de_page,
-.pied_de_page {
+.header,
+.footer {
   background-color: white;
 }
 
@@ -51,5 +51,21 @@ h2{
 }
 .commentaire{ 
   color:#1F2039
+}
+
+
+a:hover  /* Ici le but est de sousligner les liens au survol grâce à la fonction hover*/
+{
+  text-decoration: underline; 
+}
+
+.icone_direction:hoover{
+  opacity: 0.5;
+}
+
+
+.mini_case:hover{
+  background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
 }
 
