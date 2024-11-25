@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(#e7f0f6, #abb1eb); /* Le fond de la page sera 
+    background: linear-gradient(#fcfcfc, #f3d9ca); /* Le fond de la page sera 
     dégradé(https://developer.mozilla.org/fr/docs/Web/CSS/gradient/linear-gradient)
     (ou bien :https://uigradients.com/#PurpleWhite) 
     /*color: rgb(36, 5, 128); /* Le texte de la page sera blanc */
@@ -31,6 +31,19 @@ p { /* Signifie "je veux que tous les paraghraphes s'affiche en police arial san
     font-style: italic;
     text-align:justify;
     color:rgb(21, 6, 78); 
+    background-color: rgb(255, 247, 132);
+    
+    /* Les modèles de boites. Ici il s'agit des blocs qui peuvent se superposer .
+    Dans ce cas les demandes padding et margin sont équivalentes pour les 4 cotés. 
+    Sauf qu'on peut aussi choisi de modifier les marges inérieurs différemment 
+    selon les côtés. Avec par exemple :  
+    padding-top: 50ox;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 200 px; */
+    
+    margin: 50px;
+    padding: 50px;
  }
 
  h2{
@@ -147,3 +160,13 @@ img:hover +h3 {
 /*  la fonstionnalié sibllings ou selecteur de voisin permet de faire interagir simultanément deux selecteurs voisins ou deux 
 élèments issus du même parent. Dans le code est précisé l'élèment principal (img) auquel est ajouté l'élèment cible (+ h3)
 est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça ne fonctionne pas très bien*/
+
+.banniere {
+    padding: 100px 0;
+    background:url("images_exercices/colombes-papier-origami-by_macrovector-freepik.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    margin: auto;
+}
+
