@@ -37,6 +37,10 @@ h2{
 .tete,
 .pied {
   background-color: white;
+  padding-left: 50px;
+  padding-top: 20PX;
+  padding-right: 50PX;
+  padding-bottom: 20px;
 }
 
 .mini_case{
@@ -46,9 +50,19 @@ h2{
 }
 
 .bloc {
+  padding: 50px;
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
 }
+
+.bloc h2 {
+  margin-top: 30px;
+}
+
+.bloc ul {
+  margin-top: 30px;
+}
+
 .commentaire{ 
   color:#1F2039
 }
@@ -69,3 +83,11 @@ a:hover  /* Ici le but est de sousligner les liens au survol grâce à la foncti
   text-decoration: none;
 }
 
+section{
+  padding: 80px;
+}
+
+.a_propos_page{
+  width: 50%;
+  margin: auto;
+}
