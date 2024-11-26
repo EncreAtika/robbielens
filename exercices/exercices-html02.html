@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     </head>
+    
     <body>
         <!-- Ceci est un commentaire -->
     <header>
@@ -23,86 +24,108 @@
 
     <main>
         <section>
-        <h2>Voilà mon sous-titre : </h2>
-        
-        <h3>Voilà une sous-partie :</h3>
-        <p><em>Un paragraphe;</em> Sed euismod, eros sed tempor commodo, nunc ipsum sollicitudin sapien, in ultrices ante sem vel sem. Praesent ornare porta mi<br/>
-                in egestas. Donec cursus turpis quam. Quisque nibh mauris, blandit vel felis quis, suscipit efficitur urna. Maecenas rutrum erat et mollis pellentesque.<br/> 
-                Duis fringilla sodales hendrerit. Aliquam ac blandit urna.</p>
-        <h3>Une autre sous parte : </h3>
-        
-        <p><em>Un autre paragraphe</em> Duis dictum arcu vitae faucibus elementum. Donec mi tortor, feugiat non suscipit eu, rhoncus eget leo. Nulla venenatis eros mauris.<br/> 
+            <h2>Voilà mon sous-titre : </h2>
+            
+            <h3>Voilà une sous-partie :</h3>
+            
+            
+                <p><em>Un paragraphe;</em> Sed euismod, eros sed tempor commodo, nunc ipsum sollicitudin sapien, in ultrices ante sem vel sem. Praesent ornare porta mi<br/>
+                    in egestas. Donec cursus turpis quam. Quisque nibh mauris, blandit vel felis quis, suscipit efficitur urna. Maecenas rutrum erat et mollis pellentesque.<br/> 
+                    Duis fringilla sodales hendrerit. Aliquam ac blandit urna.</p>
+            
+            <h3>Une autre sous parte : </h3>
+            
+            <p><em>Un autre paragraphe</em> Duis dictum arcu vitae faucibus elementum. Donec mi tortor, feugiat non suscipit eu, rhoncus eget leo. Nulla venenatis eros mauris.<br/> 
             Suspendisse potenti. Curabitur non egestas odio, id euismod ante. Fusce eu orci pulvinar, semper tortor non, efficitur nibh. Vivamus viverra egestas ante. Etiam ac<br/> 
             vestibulum ante, ut aliquam ex. Nam vestibulum nisl arcu, at tristique nulla maximus et. Curabitur efficitur vitae arcu sit amet rhoncus.</p>    
         </section>
 
         <section>
-        <h2>Voici un autre sous-titre : </h2>
-        
-        <p><strong>MAINTENANT LES LISTES : </strong></p>
-        
-        <h3>Les fruits rouges</h3>
-            <ul>
-                <li>Fraises</li>
-                <li>Framboises</li>
-                <li>Groseilles</li>
-            </ul>
+            <h2>Voici un autre sous-titre : </h2>
+            
+            <p><strong>LES LISTES : </strong></p>
+            
+            <h3>Les fruits rouges</h3>
+                <ul>
+                    <li>Fraises</li>
+                    <li>Framboises</li>
+                    <li>Groseilles</li>
+                </ul>
         </section>   
             
         <section>
-        <h2>Ma journée</h2>
-            <ol>
-                <li>Je me lève.</li>
-                <li>Je mange et je bois de l'eau.</li>
-                <li>Je retourne me coucher.</li>
-            </ol>
+            <h2>Ma journée</h2>
+                <ol>
+                    <li>Je me lève.</li>
+                    <li>Je mange et je bois de l'eau.</li>
+                    <li>Je retourne me coucher.</li>
+                </ol>
         </section>
 
         <section>
-        <h2 id="les_liens" ><mark>Liens absolus/Liens relatifs, Liens directs :</mark></h2>
+            <h2 id="les_liens" ><mark>Liens absolus/Liens relatifs, Liens directs :</mark></h2>
+                
+            <p> <!--LIEN RELATIF : VERS UN FICHIER CONTENU DANS LE MÊME DOSSIER.-->
+                <em>Si vous voulez accéder directement à la page d'exercices sur la thématique des oiseux,
+                    <a href="exercices-html01.html"> Cliquez ici !</a>
+                </em>
+            </p>
+
+            <p> <!--LIEN RELATIF : VERS UN FICHIER CONTENU DANS UN SOUS DOSSIER.-->
+                <strong>Si vous voulez accéder directement à la page d'exercices html 02 bis située dans un <br>
+                sous-dossier nommé contenu et spécialement conçu pour cet exercice,
+                    <a href="contenu/exercices-html-02bis.html"> c'est par là !</a>
+                </strong>
+            </p>
+
+            <p>Lien direct vers le haut de page (ici vers le premier titre de page h1:"Voici mon premier titre"):
+                <a href="#titre_1">par là.</a>
+            </p>
+        </section>
+
+        <section>
+            <h2><mark>Insertion d'images :</mark></h2>
+            <!-- Il est important de choisir le bon format d'image. Voici quel format adopter en fonction de l'image que vous avez :-->
+            <!-- Une photo : utiliser un JPEG.--> 
+            <!-- N'importe quelle image avec peu de couleurs (moins de 256) : utiliser un PNG 8 bits, ou éventuellement un GIF.-->
+            <!--N'importe quelle image avec beaucoup de couleurs : utiliser un PNG 24 bits.-->
+            <!--Une image animée : utiliser un GIF animé.-->
+            <!--Un logo vectoriel : utiliser un SVG (pour en savoir plus sur le SVG :"Codez un site web accessible avec HTML et CSS" est un cours sur openclassroom). -->
+            <p><strong>Avec un chemin absolu pour indiquer la source d'une image si celle-ci est sur internet</strong><br/>
+                par exemple ici pour visualiser le logo d'OpenClassroom : <br>
+                <img src="https://course.oc-static.com/courses/1603881/logo-openclassrooms.png" alt="Logo d'OpenClassrooms">
+            </p>
             
-        <p> <!--LIEN RELATIF : VERS UN FICHIER CONTENU DANS LE MÊME DOSSIER.-->
-            <em>Si vous voulez accéder directement à la page d'exercices sur la thématique des oiseux,
-                <a href="exercices-html01.html"> Cliquez ici !</a>
-            </em>
-        </p>
+            <p>Et pour insérer une image en dont la source est en local (dans ce cas un sous dossier ) avec une bulle (passer la <br/>
+                souris sur l'image et on obtient une sorte de titre descriptif):<br>
+                <img src="contenu/images-sous-dossier/from-theglassdesk-pixabay.jpg" title="Espace de travail Zen" alt="Image d'un bureau zen, produite par 'the glass desk'">
+            </p>
 
-        <p> <!--LIEN RELATIF : VERS UN FICHIER CONTENU DANS UN SOUS DOSSIER.-->
-            <strong>Si vous voulez accéder directement à la page d'exercices html 02 bis située dans un <br>
-            sous-dossier nommé contenu et spécialement conçu pour cet exercice,
-                <a href="contenu/exercices-html-02bis.html"> c'est par là !</a>
-            </strong>
-        </p>
+            <p><mark> Voici une miniature cliquable</mark> pratique lorsque l'image d'origine est lourde afin que <br/>
+            les pages web mettent moins de temps à s'afficher :<br>
+                <a href="images_exercices/vase-a-fleurs-by-ricardov30-paxabay.jpg"><img src="images_exercices/mini-vase-a-fleurs.jpg" alt="Vase à fleurs sur bureau Zen" title="Cliquez pour aggrandir !"></a>
+            </p>
 
-        <p>Lien direct vers le haut de page (ici vers le premier titre de page h1:"Voici mon premier titre"):
-            <a href="#titre_1">par là.</a>
-        </p>
+            <p class="carre_bordure"> juste un essai</p>
+
         </section>
 
         <section>
-        <h2><mark>Insertion d'images :</mark></h2>
-        <!-- Il est important de choisir le bon format d'image. Voici quel format adopter en fonction de l'image que vous avez :-->
-        <!-- Une photo : utiliser un JPEG.--> 
-        <!-- N'importe quelle image avec peu de couleurs (moins de 256) : utiliser un PNG 8 bits, ou éventuellement un GIF.-->
-        <!--N'importe quelle image avec beaucoup de couleurs : utiliser un PNG 24 bits.-->
-        <!--Une image animée : utiliser un GIF animé.-->
-        <!--Un logo vectoriel : utiliser un SVG (pour en savoir plus sur le SVG :"Codez un site web accessible avec HTML et CSS" est un cours sur openclassroom). -->
-        <p><strong>Avec un chemin absolu pour indiquer la source d'une image si celle-ci est sur internet</strong><br/>
-            par exemple ici pour visualiser le logo d'OpenClassroom : <br>
-            <img src="https://course.oc-static.com/courses/1603881/logo-openclassrooms.png" alt="Logo d'OpenClassrooms">
-        </p>
-        
-        <p>Et pour insérer une image en dont la source est en local (dans ce cas un sous dossier ) avec une bulle (passer la <br/>
-            souris sur l'image et on obtient une sorte de titre descriptif):<br>
-            <img src="contenu/images-sous-dossier/from-theglassdesk-pixabay.jpg" title="Espace de travail Zen" alt="Image d'un bureau zen, produite par 'the glass desk'">
-        </p>
+            <h2> Introduction à la mise en page avec Flexbox: </h2>
+                <div class="container">
+                    <!--Par défaut les boxs s'empilent les uns sur les autres. C'est le langage CSS qui permet de 
+                    déinir leurs caractéristiques et leur positionnement.-->
+                    <div class="item">item 1</div>
+                    <div class="item">item 2</div>
+                    <div class="item">item 3</div>
+                </div>
+                <br>
 
-        <p><mark> Voici une miniature cliquable</mark> pratique lorsque l'image d'origine est lourde afin que <br/>
-        les pages web mettent moins de temps à s'afficher :<br>
-            <a href="images_exercices/vase-a-fleurs-by-ricardov30-paxabay.jpg"><img src="images_exercices/mini-vase-a-fleurs.jpg" alt="Vase à fleurs sur bureau Zen" title="Cliquez pour aggrandir !"></a>
-        </p>
-
-        <p class="carre_bordure"> juste un essai</p>
+                <div class="container_2">
+                    <div class="one">ONE</div>
+                    <div class="two">TWO</div>
+                    <div class="three">THREE</div>
+                </div>
 
         </section>
     </main>
