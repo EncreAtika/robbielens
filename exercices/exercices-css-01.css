@@ -225,14 +225,17 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
 
 .conteneur{
     display: grid;
-    grid-template-columns: 250xp 250xp 250xp 250xp 250xp;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 150xp 150xp;
+    gap: 20px;
+ 
 }
 
 .conteneur_2{
-    display: grid;
-    grid-template-columns: 250xp 250xp 250xp 250xp 250xp 250xp;
+    display: grid;    
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
     grid-template-rows: 150xp 150xp;
+    
 }   
 
 .element_one{
@@ -242,7 +245,10 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     padding: 10px;
     order: 1;
     width: 6em;
+    grid-column-start: 1;
+    grid-column-end: 6;
 }
+
 
 .element_two{
     background-color: rgb(105, 80, 206);
