@@ -192,8 +192,7 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     display: flex;
     flex-direction: row;
     justify-content: center;
-   
-  }
+ }
 
   .one{
     background-color: #a65c9c;
@@ -225,17 +224,17 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
 
 .conteneur{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 150xp 150xp;
-    gap: 20px;
- 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-gap: 10px;
 }
 
+
 .conteneur_2{
-    display: grid;    
-    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
-    grid-template-rows: 150xp 150xp;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-gap: 10px;
 }   
 
 .element_one{
@@ -243,10 +242,13 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     color: hsl(70, 100%, 85%);
     margin: 10px;
     padding: 10px;
-    order: 1;
-    width: 6em;
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 4;
+    /* Ou pour les deux actions précédentes on peut le rédiger ainsi : grid-column: 1/4; */
+    grid-row-start: 1;
+    border: 1px solid black;
+    border-radius: 10px;
+    
 }
 
 
@@ -255,8 +257,10 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     color: hsl(70, 100%, 85%);
     margin: 10px;
     padding: 10px;
-    order: 2;
-    width: 6em;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    border: 1px solid black;
+    border-radius: 10px; 
 }
 
 .element_three{
@@ -264,8 +268,10 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     color: hsl(70, 100%, 85%);
     margin: 10px;
     padding: 10px;
-    order: 3;
-    width: 6em;
+    grid-column-start: 3;
+    grid-column-end: 2;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .element_four{
@@ -273,8 +279,10 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     color: hsl(70, 100%, 85%);
     margin: 10px;
     padding: 10px;
-    order: 4;
-    width: 6em;
+    grid-column-start: 4;
+    grid-column-end: 3;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .element_five{
@@ -282,8 +290,10 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     color: hsl(70, 100%, 85%);
     margin: 10px;
     padding: 10px;
-    order: 5;
-    width: 6em;
+    grid-column-start: 5;
+    grid-column-end: 2;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .element_six{
@@ -291,9 +301,12 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     color: hsl(70, 100%, 85%);
     margin: 10px;
     padding: 10p;
-    order: 6;
-    width: 7em;
+    grid-column-start: 6;
+    grid-column-end: 6;
     height: 2.7em;
+    border: 1px solid black;
+    border-radius: 10px;
+    
 }
 
 .element_seven{
@@ -301,8 +314,11 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     color: hsl(70, 100%, 85%);
     margin: 10px;
     padding: 10px;
-    order: 7;
-    width: 6em;
+    grid-column-start: 7;
+    grid-column-end: 2;
+    border: 1px solid black;
+    border-radius: 10px;
+   
 }
 
 .element_eight{
@@ -310,8 +326,11 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     color: hsl(70, 100%, 85%);
     margin: 10px;
     padding: 10px;
-    order: 8;
-    width: 6em;
+    grid-column-start: 8;
+    grid-column-end: 2;
+    border: 1px solid black;
+    border-radius: 10px;
+    
 }
 
 .element_nine{
@@ -319,8 +338,11 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     color: hsl(70, 100%, 85%);
     margin: 10px;
     padding: 10px;
-    order: 9;
-    width: 6em;
+    grid-column-start: 6;
+    grid-column-end: 2;
+    border: 1px solid black;
+    border-radius: 10px;
+   
 }
 
 .element_ten{
@@ -328,8 +350,10 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     color: rgb(105, 80, 206);
     margin: 10px;
     padding: 10px;
-    order: 10;
-    width: 6em;
+    grid-column-start: 10;
+    grid-column-end: auto;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .element_eleven{
@@ -337,8 +361,10 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     color: rgb(105, 80, 206);
     margin: 10px;
     padding: 10px;
-    order: 11;
-    width: 6em;
+    grid-column-start: 11;
+    grid-column-end: auto;
+    border: 1px solid black;
+    border-radius: 10px;
 } 
 
 
@@ -347,8 +373,10 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     color: rgb(105, 80, 206);
     margin: 10px;
     padding: 10px;
-    order: 12;
-    width: 6em;
+    grid-column-start: 12;
+    grid-column-end: auto;
+    border: 1px solid black;
+    border-radius: 10px;
 } 
 
 
@@ -357,8 +385,10 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     color: rgb(105, 80, 206);
     margin: 10px;
     padding: 10px;
-    order: 13;
-    width: 6em;
+    grid-column-start: 13;
+    grid-column-end: auto;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 
