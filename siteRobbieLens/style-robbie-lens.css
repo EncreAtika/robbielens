@@ -39,7 +39,8 @@ h2{
 }
 
  /* .tete, 
-.pied {
+.pied --> devenus header et footer (ci-dessous) pour faciliter le travaille de programmation.
+{
   background-color: white;
   padding-left: 50px;
   padding-top: 20PX;
@@ -64,6 +65,7 @@ footer {
   padding: 50px;
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
+  padding: 50px;
 }
 
 .bloc h2 {
@@ -72,28 +74,23 @@ footer {
 
 .bloc ul {
   margin-top: 30px;
-  color:#1F2039;
+  /* color:#1F2039; */
 }
-
- /* .commentaire{  */
-  
-
-
-
+ 
 a:hover  /* Ici le but est de sousligner les liens au survol grâce à la fonction hover*/
 {
   text-decoration: underline; 
 }
 
-/* .icone_direction:hoover{ 
-  opacity: 0.5;
-}*/
-
-
 .mini_case:hover{
   background: linear-gradient(#696484, #8788ba);
   text-decoration: none;
 }
+
+/* .icone_direction:hoover --> devenu "icon-link là encore pour faciliter le travail de programmation du site
+{ 
+  opacity: 0.5;
+}*/
 
 .incon_link{
   margin-left: 30px;
@@ -165,5 +162,19 @@ nav a {
   height: 100%;
   /* Même si vous ne connaissez pas cette propriété, vous en aurez besoin pour permettre aux images de respecter les dimensions de la grid CSS */
   object-fit: cover;
+}
+
+.grid-paysages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  gap: 15px;
+}
+
+.grid-portraits{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px ;
+  gap: 15px;
 }
 
