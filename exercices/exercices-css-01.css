@@ -131,6 +131,15 @@ img:hover{
     opacity: 0.5;
 }
 
+a{
+    background-color: #023e8a;
+    color: white;
+    display: block;
+    width: 300px;
+    height: 100px;
+
+}
+
 a:hover{
     color:deeppink;
     text-decoration: underline;
@@ -223,7 +232,8 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
 }
 
 .conteneur{
-    display: grid;
+     /* display: inline-block;*/
+    display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 100px 100px 100px 100px;
     grid-gap: 10px;
