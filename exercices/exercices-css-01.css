@@ -401,7 +401,10 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     border-radius: 10px;
 }
 
+td{
+    border: 2px solid royalblue;
+}
 
-
-
-  
+table{
+    border-collapse: collapse;
+}
