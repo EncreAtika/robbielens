@@ -408,7 +408,7 @@ table {
   
   th, td {
     border: 2px solid royalblue; /* Bordure de la branche 'main' */
-    padding: 15px;
+    padding: 13px;
   }
   
   .test_titre_tableau {
@@ -431,7 +431,7 @@ table {
     margin: auto;
     background-color: #f9e9f8;
   }
-  
+
    
 
 
