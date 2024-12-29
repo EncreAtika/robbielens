@@ -21,8 +21,8 @@ p { /* Signifie "je veux que tous les paraghraphes s'affiche en police arial san
     /*Une valeur absolue en pixel comme 16px est fixe. C'est comme s'il était demandé
     d'indiquer la taille du texte en millimètres. S'il est choisi de mettre la taille
     d'un texte à 2 millimètres et qu'on regarde la page web depuis un smartphone
-    il est possible de pouvoir le lire. Maintenant, si le site web s'affiche sur l'écran 
-    d'un stadium, que se passera-t-il ? Ce sera illisible. C'est pour cela qu'il est 
+    il est possible de pouvoir le lire. Mais, si le site web s'affiche sur l'écran 
+    d'un stadium, ce sera illisible. C'est pour cela qu'il est 
     recommandé d'utiliser une taille relative (em plutôt que px). 16 pixels est une 
     taille standard pour lire un texte mais peut ne pas suffire selon l'écran sur 
     lequel il s'affiche. Une valeur relative permet de choisir une taille de police 
@@ -400,3 +400,34 @@ est ajouté la couleur du h3 qui apparait au survol de l'image. Dans ce cas ça 
     border: 1px solid black;
     border-radius: 10px;
 }
+table{
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 2px solid royalblue; /* Bordure de la branche 'main' */
+    padding: 13px;
+  }
+  
+  .test_titre_tableau {
+    caption-side: top;
+    color: #a65c9c;
+    font-family: 'Lobster Two', cursive;
+    font-size: 24px;
+  }
+  
+  .grand_tableau {
+    background-color: #e9f9f9;
+    font-family: Arial;
+    text-align: center;
+  }
+  
+  .en_fusion {
+    font-family: Arial;
+    text-align: left;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: #f8f9dc;
+  }
+
+   
