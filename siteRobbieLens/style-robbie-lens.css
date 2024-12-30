@@ -76,11 +76,11 @@ a:hover  /* Ici le but est de sousligner les liens au survol grâce à la foncti
 { 
   opacity: 0.5;
 }*/
-.incon_link{
+.icon_link{
   margin-left: 30px;
 }
 
-.incon_link:hover{
+.icon_link:hover{
   opacity: 0.5;
 }
 
