@@ -105,9 +105,7 @@ a:hover  /* Ici le but est de sousligner les liens au survol grâce à la foncti
   text-align: center;
 }
  
-
-
-section{
+section {
   padding: 80px;
 }
 
@@ -128,6 +126,7 @@ nav a {
   margin-left: 30px;
 } 
 
+/* TOUT CE QUI EST DESSOUS EST supprimé car 3 autres pages CSS ont été créées pour répondre aux besoins différents des pages HTML qui ont été créées( robbie-lens-site.css - a-propos.css -  portfolio.css).
 .photo_d_accueil{
   background-color: white;
   padding: 80px;
@@ -194,8 +193,9 @@ nav a {
 .grid-portraits img {
   width: 100%;
   height: 100%;
-  /* Même si vous ne connaissez pas cette propriété, vous en aurez besoin pour permettre aux images de respecter les dimensions de la grid CSS */
-  object-fit: cover;
+  
+  object-fit: cover; CETTE PROPRIéTé PERMET AUX IMAGES DE RESPECTER LES DIMENSION DE GRID CSS
+
 }
 
 
@@ -222,4 +222,4 @@ nav a {
   display: flex;
 }
 
-
+*/
